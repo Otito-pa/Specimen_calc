@@ -21,7 +21,7 @@ def calculate():
         except ValueError:
             error = "Please enter valid numbers"
     
-    return render_template('microscope.html', 
+    return render_template('index.html', 
                          result=result, 
                          username=username)
 
